@@ -1,3 +1,7 @@
+#1.13
+# must take input from user in regards to generating a turtle drawing with flowers
+
+
 import turtle as trtl
 painter = trtl.Turtle()
 painter.color("black")
