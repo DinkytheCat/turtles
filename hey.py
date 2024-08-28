@@ -1,3 +1,4 @@
+
 #1.13
 # must take input from user in regards to generating a turtle drawing with flowers
 
@@ -70,10 +71,35 @@ painter.begin_fill()
 painter.circle(r)
 painter.end_fill()
 
+r = 17
 
 painter.width(1)
+painter.color("darkred")
 painter.penup()
-painter.goto()
+painter.goto(170, -120)
+painter.pendown()
+painter.begin_fill()
+painter.right(40)
+painter.forward(40)
+painter.left(40)
+painter.forward(25)
+painter.right(40)
+painter.forward(100)
+painter.right(40)
+painter.forward(25)
+painter.left(40)
+painter.forward(40)
+painter.right(90)
+painter.forward(30)
+painter.right(90)
+painter.forward(40)
+painter.circle(r)
+painter.forward(120)
+painter.circle(r)
+painter.forward(55)
+painter.right(90)
+painter.forward(38)
+painter.end_fill()
 
 wn = trtl.Screen()
 
